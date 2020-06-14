@@ -30,6 +30,11 @@ Photo by [pine watt](https://unsplash.com/@pinewatt?utm_source=unsplash&utm_medi
 
 ## USAGE
 
+For Mac OS X, add the binary to your Applications folder.  Alternately, the binary or the script
+can be added to your `PATH`.
+
+For Windows, add the binary or the script to your `PATH`.
+
 Using a binary:
 
 ```
@@ -50,7 +55,7 @@ mpdf.py [file1] [file2] ... [output filename]
 
 ## EXAMPLE
 Suppose that you have three PDF files in a directory.  To merge all of them
-into `out.pdf` use the following commands:
+into `out.pdf` use the following command:
 
 ```
 mpdf 1.pdf 2.pdf 3.pdf out.pdf
