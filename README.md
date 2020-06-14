@@ -30,10 +30,7 @@ Photo by [pine watt](https://unsplash.com/@pinewatt?utm_source=unsplash&utm_medi
 
 ## USAGE
 
-For Mac OS X, add the binary to your Applications folder.  Alternately, the binary or the script
-can be added to your `PATH`.
-
-For Windows, add the binary or the script to your `PATH`.
+For Mac OS X or Windows, the binary or the script can be added to your `PATH`.
 
 Using a binary:
 
