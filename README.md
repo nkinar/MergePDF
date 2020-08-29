@@ -13,7 +13,7 @@ If you are running Linux, feel free to build
 the binary yourself using the `build.sh` script.
 
 ## Getting Started
-* Use the binaries provided by this project (download under releases above).
+* Use the binaries provided by this project (download under [releases](https://github.com/nkinar/MergePDF/releases) above).
 
 *or*
 
