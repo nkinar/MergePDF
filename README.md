@@ -14,7 +14,7 @@ Binaries be generated for Mac OS X, Windows and Linux using the
 Powershell `build.ps1` script.
 
 ## Getting Started
-* Build binaries
+* Use the binaries provided by this project (download under [releases](https://github.com/nkinar/MergePDF/releases) above).
 
 *or*
 
