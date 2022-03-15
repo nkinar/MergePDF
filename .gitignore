@@ -1,6 +1,9 @@
 # Source: https://github.com/github/gitignore/blob/master/Python.gitignore
 
+# misc
 .idea/
+*.pdf
+*.docx
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

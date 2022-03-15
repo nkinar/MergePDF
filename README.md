@@ -8,12 +8,13 @@ on the command line.  It is easy to use and doesn't require much configuration.
 There are more complex tools out there for more complex work with PDFs. This
 is just an easy utility to use.
 
-Binaries are provided for Mac OS X and Windows 10 (x64).
-If you are running Linux, feel free to build
-the binary yourself using the `build.sh` script.
+Although simple, I use this script for
+
+Binaries be generated for Mac OS X, Windows and Linux using the
+Powershell `build.ps1` script.
 
 ## Getting Started
-* Use the binaries provided by this project.
+* Build binaries
 
 *or*
 

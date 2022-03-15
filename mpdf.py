@@ -21,9 +21,9 @@ REFERENCES:
 [1] https://stackoverflow.com/questions/3444645/merge-pdf-files
 """
 
-from PyPDF2 import PdfFileMerger
+import fitz
 import sys
-
+from tqdm import tqdm
 PDF_EXT = '.pdf'
 
 
@@ -32,18 +32,18 @@ def print_usage():
 
 
 def merge_pdfs(files, fn_out):
-    if not fn_out.endswith('.pdf'):
+    if not fn_out.endswith(PDF_EXT):
         fn_out += PDF_EXT
     try:
-        m = PdfFileMerger()
-        for p in files:
-            print('File: ' + p)
-            m.append(p)
-        m.write(fn_out)
-        m.close()
-        print('Output: ' + fn_out)
-    except:
-        print('An exception occurred, exiting...')
+        out_doc = fitz.open()
+        for k in tqdm(range(len(files))):
+            file = files[k]
+            doc_in = fitz.open(file)
+            out_doc.insert_pdf(doc_in)
+            doc_in.close()
+        out_doc.save(fn_out)
+    except Exception as e:
+        print(e)
 
 
 def main():
