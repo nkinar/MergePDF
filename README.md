@@ -8,9 +8,10 @@ on the command line.  It is easy to use and doesn't require much configuration.
 There are more complex tools out there for more complex work with PDFs. This
 is just an easy utility to use.
 
-Although simple, I use this script for
+Although simple, I use this script for research, publications and teaching
+activities.
 
-Binaries be generated for Mac OS X, Windows and Linux using the
+Binaries can be generated for Mac OS X, Windows and Linux using the
 Powershell `build.ps1` script.
 
 ## Getting Started
